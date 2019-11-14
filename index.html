@@ -1,79 +1,93 @@
+<!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <!-- <div class="row">
-        <h2 class="header__tittle">Tujuan Wisata</h2>
-        <div class="search__column">
-            <img class="search__icon" src="https://imgur.com/YoftP5O" alt="Cari Tujuan Wisata">
-            <p class="search__text">Cari tujuan wisata</p>
+
+
+<div class="row topnav">
+  <h2 class="top_title">Responsive Column Cards</h2>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="card__head">
+        <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
+        <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
+        <div class="card__title">
+            <h3 class="card__title-main"> Pantai Setrojenar</h3>
+            <p class="card__title-sub">Kebumen - 88.1 Km</p>
         </div>
-    </div> -->
-    <h2>Tujuan Wisata</h2>
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <div class="card__head">
-                    <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
-                    <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
-                    <div class="card__title">
-                        <h3 class="card__title-main"> Pantai Setrojenar</h3>
-                        <p class="card__title-sub">Kebumen - 88.1 Km</p>
-                    </div>
-                </div>
-                <div class="card__body">
-                    <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
-                    <a href="#" class="card__action">Selengkapnya</a>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <div class="card__head">
-                    <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
-                    <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
-                    <div class="card__title">
-                        <h3 class="card__title-main"> Pantai Setrojenar</h3>
-                        <p class="card__title-sub">Kebumen - 88.1 Km</p>
-                    </div>
-                </div>
-                <div class="card__body">
-                    <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
-                    <a href="#" class="card__action">Selengkapnya</a>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <div class="card__head">
-                    <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
-                    <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
-                    <div class="card__title">
-                        <h3 class="card__title-main"> Pantai Setrojenar</h3>
-                        <p class="card__title-sub">Kebumen - 88.1 Km</p>
-                    </div>
-                </div>
-                <div class="card__body">
-                    <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
-                    <a href="#" class="card__action">Selengkapnya</a>
-                </div>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <div class="card__head">
-                    <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
-                    <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
-                    <div class="card__title">
-                        <h3 class="card__title-main"> Pantai Setrojenar</h3>
-                        <p class="card__title-sub">Kebumen - 88.1 Km</p>
-                    </div>
-                </div>
-                <div class="card__body">
-                    <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
-                    <a href="#" class="card__action">Selengkapnya</a>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="card__body">
+          <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
+          <a href="#" class="card__action">Selengkapnya</a>
+      </div>
     </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="card__head">
+        <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
+        <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
+        <div class="card__title">
+            <h3 class="card__title-main"> Pantai Setrojenar</h3>
+            <p class="card__title-sub">Kebumen - 88.1 Km</p>
+        </div>
+      </div>
+      <div class="card__body">
+          <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
+          <a href="#" class="card__action">Selengkapnya</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="card__head">
+        <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
+        <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
+        <div class="card__title">
+            <h3 class="card__title-main"> Pantai Setrojenar</h3>
+            <p class="card__title-sub">Kebumen - 88.1 Km</p>
+        </div>
+      </div>
+      <div class="card__body">
+          <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
+          <a href="#" class="card__action">Selengkapnya</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="card__head">
+        <img class="card__love" src="https://res.cloudinary.com/isuk/image/upload/v1573266674/public-assets/course/chapter-1/icon-favourite_y5wwqg.svg" alt="Sukai Konten">
+        <img class="card__image" srcset="https://res.cloudinary.com/isuk/image/upload/v1573266675/public-assets/course/chapter-1/img-beach_zepxds.png 1x ,https://res.cloudinary.com/isuk/image/upload/v1573266676/public-assets/course/chapter-1/img-beach_2x_uhmeom.png 2x" alt="Beach Photo">
+        <div class="card__title">
+            <h3 class="card__title-main"> Pantai Setrojenar</h3>
+            <p class="card__title-sub">Kebumen - 88.1 Km</p>
+        </div>
+      </div>
+      <div class="card__body">
+          <p class="card__description">Wisata murah di kawasan jalur lintas selatan. Terdapat banyak penjual makanan dan berbagai fasilitas lainnya seperti toilet, parkir, dll.</p>
+          <a href="#" class="card__action">Selengkapnya</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
+</html>
+
